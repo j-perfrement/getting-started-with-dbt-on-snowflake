@@ -6,6 +6,7 @@ This repository contains an example dbt project to get you started with dbt on S
 
 
 Steps:
+0. Run tasty_bytes_setup.sql (run once only)
 1. dbt deps
 2. dbt compile
 3. dbt run
