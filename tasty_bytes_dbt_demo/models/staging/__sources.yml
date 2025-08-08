@@ -215,8 +215,8 @@ sources:
         - not_null
         - is_positive_amount
         - dbt_utils.accepted_range:  # Realistic order amount range
-            min_value: 0
-            max_value: 10000
+            min_value: 0 
+            max_value: 10 #change to 10000
             inclusive: true
     - name: ORDER_TAX_AMOUNT
       description: 'Tax amount'
